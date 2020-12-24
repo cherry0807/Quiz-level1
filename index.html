@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Quiz app</title>
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
+  </head>
+  <body>
+
+  <div class="quiz-container" id="quiz">
+  <div class="quiz-header">
+    <h1 class="question" id="question">question text</h1>
+   <ul>
+     <li>
+       <input type="radio" id="a" class="answer" name="answer">
+       <label id="optiona" for="a"> optiona</label>
+     </li>
+     <li>
+       <input type="radio" id="b" class="answer" name="answer">
+       <label id="optionb"for="a">optinob</label>
+     </li>
+     <li>
+       <input type="radio" id="c" class="answer" name="answer">
+       <label id="optionc" for="c">optionc</label>
+     </li>
+     <li>
+       <input type="radio" id="d"  class="answer" name="answer">
+       <label id="optiond" for="d">optiond</label>
+     </li>
+
+   </ul>
+    </div>
+    <div class="center">
+    <button type="button" id="submit" class=" btn btn-outline-dark">Submit</button>
+    </div>
+    <small id="error">Please choose an option</small>
+  </div>
+
+
+  </body>
+  <script src="app.js"></script>
+</html>
